@@ -34,6 +34,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-size: 50px;
+        color: var(--amarillo);
     };
 
     h3 {
