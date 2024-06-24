@@ -6,19 +6,20 @@ export const FeaturedContainer = styled.div`
     justify-content: space-around;
     flex-direction: column;
     width: 80%;
-    height: 500px;
+
 `
 export const CardsContainer = styled(FeaturedContainer)`
-flex-direction: row;
-width: 100%;
+    flex-direction: row;
+    width: 100%;
+    /* height: 800px; */
 `
 
 export const FeaturedCards = styled(FeaturedContainer)`
-        justify-content: flex-start;
+    justify-content: flex-start;
     width: 30%;
-    height: 400px;
     border: solid 1px var(--gris-azulado);
     border-radius: 20px;
+    padding: 20px;
     >img{
         max-width: 80%;
         border-radius: 20px;
@@ -26,6 +27,8 @@ export const FeaturedCards = styled(FeaturedContainer)`
     }
     >span{
         font-family: "Poppins", sans-serif;
+        align-items: start;
+        justify-content: start;
         font-weight: 600;
         font-size: 24px;
         color: white;

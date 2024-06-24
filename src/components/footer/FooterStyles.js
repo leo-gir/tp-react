@@ -5,6 +5,8 @@ export const FooterContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: auto;
+    margin-top: 30px ;
 `
 
 export const FooterSocial = styled(FooterContainer)`

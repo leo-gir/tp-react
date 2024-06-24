@@ -1,5 +1,11 @@
 import { NavLogo, NavContainer, NavLinks, NavIcons } from "./HeaderStyles";
 import logo from "../../assets/img/logoHoriz.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+
+
 
 function Header(){
     return (
@@ -17,8 +23,8 @@ function Header(){
                 </NavLinks>
 
                 <NavIcons>
-                    <img src="./img/logo1.png" alt="carrito" />
-                    <img src="#" alt="menu" />
+                    <FontAwesomeIcon icon={faCartShopping} size="2xl" style={{color: "#FFD43B",}} />
+                    <FontAwesomeIcon icon={faBars} size="2xl" style={{color: "#FFD43B",}} /> 
                 </NavIcons>
 
             </NavContainer>

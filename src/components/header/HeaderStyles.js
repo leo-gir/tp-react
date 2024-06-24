@@ -37,7 +37,5 @@ export const NavLogo=styled.div`
 `
 
 export const NavIcons=styled(NavLogo)`
-    >img{
-        height: 70px;
-    }
+    gap:50px;
 `
