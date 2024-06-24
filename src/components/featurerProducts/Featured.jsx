@@ -23,6 +23,6 @@ function Featured (){
             </FeaturedContainer>
         </>
     );
-}
+} 
 
 export default Featured;
