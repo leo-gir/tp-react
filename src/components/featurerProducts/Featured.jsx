@@ -19,6 +19,7 @@ function Featured (){
                     </FeaturedCards>
                     <FeaturedCards>asdsada</FeaturedCards>
                     <FeaturedCards>asdsada</FeaturedCards>
+                    <FeaturedCards>asdsada</FeaturedCards>
                 </CardsContainer>
             </FeaturedContainer>
         </>

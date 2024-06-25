@@ -5,12 +5,14 @@ export const FeaturedContainer = styled.div`
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
+    padding: 20px;
 
 `
 export const CardsContainer = styled(FeaturedContainer)`
     flex-direction: row;
-    width: 100%;
+    width: 90%;
+
     /* height: 800px; */
 `
 
