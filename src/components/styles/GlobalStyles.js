@@ -39,8 +39,9 @@ export const GlobalStyles = createGlobalStyle`
 
     h3 {
         font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-size: 35px;
+        font-weight: 600;
+        font-size: 40px;
+        color: var(--gris-claro);
     };
     
     h4 {
