@@ -48,7 +48,7 @@ export const BtnContainer = styled.div`
 export const ProductBtn = styled.button`
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 120px;
     height: 40px;
     border-radius: 10px;
