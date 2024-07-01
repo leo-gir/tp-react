@@ -1,8 +1,9 @@
-import { FeaturedContainer } from "./FeaturedStyles";
+import { FeaturedContainer, fetchData } from "./FeaturedStyles";
 import { CardsContainer } from "./FeaturedStyles";
 import { FeaturedCards } from "./FeaturedStyles";
 import { BtnContainer } from "./FeaturedStyles";
 import { ProductBtn } from "./FeaturedStyles";
+
 
 function Featured (){
     return(
@@ -15,9 +16,10 @@ function Featured (){
                         <span>Precio: $$$</span>
                             <BtnContainer>
                                 <ProductBtn>Agregar al carrito</ProductBtn>
+                                
                         </BtnContainer>
                     </FeaturedCards>
-                    <FeaturedCards>asdsada</FeaturedCards>
+                    <FeaturedCards>{}</FeaturedCards>
                     <FeaturedCards>asdsada</FeaturedCards>
                     <FeaturedCards>asdsada</FeaturedCards>
                 </CardsContainer>
