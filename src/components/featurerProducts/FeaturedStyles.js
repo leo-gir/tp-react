@@ -5,8 +5,26 @@ export const FeaturedSectionContainer = styled.div`
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     width: 100%;
     padding: 20px;
+
+    >h2{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    @media(max-width: 768px){
+        >h2{
+            font-size: 36px;
+        }
+    }
+
+    @media(max-width: 576px){
+        >h2{
+            font-size: 30px;
+        }
+    }
 `
 
 export const ProductCardsContainer = styled.div`
@@ -17,6 +35,10 @@ export const ProductCardsContainer = styled.div`
     width: 90%;
     flex-wrap: wrap;
     gap: 40px;
+
+    @media(max-width: 768px){
+        width: 100%;
+    }
 `
 
 export const CardContainer = styled.div`

@@ -6,17 +6,17 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons/faWhatsapp";
 // import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
-
+import { StyledFontAwesomeIcon } from "./FooterStyles";
 
 function Footer(){
     return(
         <>
             <FooterContainer>
                 <FooterSocial>
-                    <FontAwesomeIcon icon={faFacebook} size="4x" style={{color: "white",}} />
-                    <FontAwesomeIcon icon={faEnvelope} size="4x" style={{color: "white",}} />
-                    <FontAwesomeIcon icon={faInstagram} size="4x" style={{color: "white",}} />
-                    <FontAwesomeIcon icon={faWhatsapp} size="4x" style={{color: "white",}} />
+                    <StyledFontAwesomeIcon icon={faFacebook}  />
+                    <StyledFontAwesomeIcon icon={faEnvelope} />
+                    <StyledFontAwesomeIcon icon={faInstagram}  />
+                    <StyledFontAwesomeIcon icon={faWhatsapp}  />
                 </FooterSocial>
                 <FooterLogo>
                     <img src={Logo} alt="logo" />

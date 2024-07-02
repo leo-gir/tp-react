@@ -1,15 +1,17 @@
-import { BtnContainer, CardContainer, ProductBtn } from "./FeaturedStyles2";
+import { BtnContainer, CardContainer, DetailsBtn, AddBtn } from "./ProductCards";
 
 
 function ProductCard ({cardName, cardImg, cardPrice}){
 
     return (
             <CardContainer>
-                <h3>{cardName}</h3>
                 <img src={cardImg} alt={cardName} />
+                <h4>{cardName}</h4>
                 <span>Precio: ${cardPrice}</span>
                 <BtnContainer>
-                    <ProductBtn>Agregar al carrito</ProductBtn>
+                    
+                    <DetailsBtn>Detalles</DetailsBtn>
+                    <AddBtn>Agregar</AddBtn>
                 </BtnContainer>
         </CardContainer>
     )
