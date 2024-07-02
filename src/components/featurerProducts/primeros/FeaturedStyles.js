@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const SectionTitleContainer = styled.div `
+display: flex;
+justify-content: center;
+align-items: center;
+    width: 120%;
+    background-color: var(--gris-azulado);
+    height: 15px;
+    >h3{
+        color: var(--amarillo);
+    }
+`
+
 export const FeaturedContainer = styled.div`
     display: flex;
     align-items: center;
@@ -17,7 +29,8 @@ export const CardsContainer = styled(FeaturedContainer)`
 `
 
 export const FeaturedCards = styled(FeaturedContainer)`
-    justify-content: flex-start;
+    
+
     width: 30%;
     border: solid 1px var(--gris-azulado);
     border-radius: 20px;
