@@ -52,6 +52,7 @@ export const NavIcons=styled(NavLogo)`
 export const FontAwesomeCart=styled(FontAwesomeIcon)`
     font-size: 33px; 
     color: var(--amarillo);
+    cursor: pointer;
 `
 
 export const FontAwesomeBars=styled(FontAwesomeIcon)`
