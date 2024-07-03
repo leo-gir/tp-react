@@ -1,12 +1,11 @@
 import { FooterContainer, FooterSocial, FooterLogo, FooterDesign } from "./FooterStyles";
 import Logo from "../../assets/img/logo.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from "@fortawesome/free-brands-svg-icons/faFacebook";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons/faWhatsapp";
-// import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import { StyledFontAwesomeIcon } from "./FooterStyles";
+
 
 function Footer(){
     return(

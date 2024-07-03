@@ -1,5 +1,5 @@
 import { FeaturedSectionContainer, ProductCardsContainer} from "./FeaturedStyles";
-import ProductCard from "./ProductCards2";
+import ProductCard from "./ProductCard";
 
 
 function Featured (){

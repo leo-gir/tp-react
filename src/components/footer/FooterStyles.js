@@ -50,7 +50,7 @@ export const FooterDesign = styled(FooterContainer)`
     justify-content: center;
     text-align: center;
     width: 30%;
-    font-family: "Poppins", sans-serif;
+    font-family: "Marsne", sans-serif;
     font-weight: 100;
     font-size: 25px;
     color: var(--gris-azulado);
