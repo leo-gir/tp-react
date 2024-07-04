@@ -18,8 +18,7 @@ export const FooterContainer = styled.div`
 export const FooterSocial = styled(FooterContainer)`
     justify-content: center;
     width: 30%;
-    gap:35px;
-    
+    gap:20px;
     @media(max-width: 768px){
         flex-direction: row;
     }
@@ -33,6 +32,7 @@ export const FooterLogo = styled(FooterContainer)`
     }
 
     @media(max-width: 768px){
+        /* width: 50%; */
         >img{
         width:50%;
         }
@@ -64,10 +64,7 @@ export const FooterDesign = styled(FooterContainer)`
     }
 
     @media(max-width: 768px){
-        font-size: 15px;
-    }
-
-    @media(max-width: 768px){
+        width: 80%;
         font-size: 20px;
     }
 
@@ -85,16 +82,10 @@ export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
     }
 
     @media(max-width: 992px){
-        font-size: 50px;
+        font-size: 40px;
     }
 
     @media(max-width: 768px){
         font-size: 40px;
     }
-
-    @media(max-width: 768px){
-        font-size: 35px;
-    }
-
-    
 `

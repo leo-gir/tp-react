@@ -6,6 +6,7 @@ export const HeroContaniner = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 80px;
     >img{
         width: 100%;
     }
@@ -63,10 +64,18 @@ export const HeroBtn = styled.button`
   left: 2px;
 }
 
+@media(max-width: 768px){
+  width: 180px;
+  height: 50px;
+  /* font-size: 12px; */
+  /* bottom:10px;
+  right: 10px; */
+    }
+
 @media(max-width: 576px){
-      width: 100px;
-      height: 30px;
-      font-size: 12px;
+      width: 130px;
+      height: 40px;
+      font-size: 15px;
       bottom:10px;
       right: 10px;
     } 
