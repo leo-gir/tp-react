@@ -69,9 +69,6 @@ export const HeroBtn = styled.button`
 @media(max-width: 768px){
   width: 180px;
   height: 50px;
-  /* font-size: 12px; */
-  /* bottom:10px;
-  right: 10px; */
     }
 
 @media(max-width: 576px){

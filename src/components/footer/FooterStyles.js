@@ -36,7 +36,6 @@ export const FooterLogo = styled(FooterContainer)`
     }
 
     @media(max-width: 768px){
-        /* width: 50%; */
         >img{
         width:50%;
         }

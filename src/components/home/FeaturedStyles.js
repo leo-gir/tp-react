@@ -30,31 +30,6 @@ export const ProductCardsContainer = styled.div`
     }
 `
 
-// export const CardContainer = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     max-width: 30%;
-//     border: solid 1px var(--gris-azulado);
-//     border-radius: 20px;
-//     padding: 10px;
-//     flex: 1;
-//     >img{
-//         max-width: 50%;
-//         border-radius: 20px;
-//         margin: 20px;
-//     }
-//     >span{
-//         font-family: "Poppins", sans-serif;
-//         align-items: start;
-//         justify-content: start;
-//         font-weight: 600;
-//         font-size: 24px;
-//         color: white;
-//     }
-// `
-
 export const BtnContainer = styled.div`
     display: flex;
     align-items: center;

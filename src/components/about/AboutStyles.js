@@ -17,17 +17,6 @@ export const SectionContainer = styled.div`
     padding: 20px;
 `
 
-// export const AboutSectionContainer = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-around;
-//     align-items: center;
-//     text-align: center;
-//     width: 90%;
-//     padding: 20px;
-//     margin-top: 15px;
-// `
-
 export const AboutWelcomeContainer = styled.div`
     display: flex;
     flex-direction: column;

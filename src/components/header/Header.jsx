@@ -10,7 +10,7 @@ import {
 import logoImg from "../../assets/img/logoHoriz.png";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 import { useContext } from "react";

@@ -78,21 +78,6 @@ export const CategoriesContainer = styled.div`
             font-size: 23px;
         }
     }
-
-    //ver para responsive
-/*     
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    width: 80%;
-    border: 1px solid black;
-    padding: 15px;
-    border-radius: 20px; */
-
-
 `;
 
 export const CatItemsContainer = styled.div`
@@ -118,7 +103,6 @@ export const CatItemsContainer = styled.div`
         flex-direction: row;
         >span{
             margin: 15px 0 0 0;
-            /* width: 100%; */
         }
     }
 
@@ -138,16 +122,3 @@ export const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
         font-size: 20px;
     }
 `;
-
-
-// span {
-//     display: flex;
-//     text-align: end;
-//     font-family: "Poppins", sans-serif;
-//     align-items: start;
-//     justify-content: start;
-//     font-weight: 200;
-//     font-size: 15px;
-//     color: white;
-//     margin-bottom: 15px;
-// }
