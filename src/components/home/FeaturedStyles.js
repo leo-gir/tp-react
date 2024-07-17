@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
-export const FeaturedSectionContainer = styled.div`
+
+export const HeroContainer = styled.div`
+    width: 100%;
+`
+
+export const SectionContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -8,23 +13,7 @@ export const FeaturedSectionContainer = styled.div`
     text-align: center;
     width: 100%;
     padding: 20px;
-
-    >h2{
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-
-    @media(max-width: 768px){
-        >h2{
-            font-size: 36px;
-        }
-    }
-
-    @media(max-width: 576px){
-        >h2{
-            font-size: 30px;
-        }
-    }
+    margin-top: 40px;
 `
 
 export const ProductCardsContainer = styled.div`
@@ -35,35 +24,36 @@ export const ProductCardsContainer = styled.div`
     width: 90%;
     flex-wrap: wrap;
     gap: 40px;
-
+    margin-top: 40px;
     @media(max-width: 768px){
         width: 100%;
     }
 `
 
-export const CardContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 30%;
-    border: solid 1px var(--gris-azulado);
-    border-radius: 20px;
-    padding: 10px;
-    >img{
-        max-width: 50%;
-        border-radius: 20px;
-        margin: 20px;
-    }
-    >span{
-        font-family: "Poppins", sans-serif;
-        align-items: start;
-        justify-content: start;
-        font-weight: 600;
-        font-size: 24px;
-        color: white;
-    }
-`
+// export const CardContainer = styled.div`
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     max-width: 30%;
+//     border: solid 1px var(--gris-azulado);
+//     border-radius: 20px;
+//     padding: 10px;
+//     flex: 1;
+//     >img{
+//         max-width: 50%;
+//         border-radius: 20px;
+//         margin: 20px;
+//     }
+//     >span{
+//         font-family: "Poppins", sans-serif;
+//         align-items: start;
+//         justify-content: start;
+//         font-weight: 600;
+//         font-size: 24px;
+//         color: white;
+//     }
+// `
 
 export const BtnContainer = styled.div`
     display: flex;
@@ -71,7 +61,6 @@ export const BtnContainer = styled.div`
     justify-content: end;
     flex-direction: row;
     width: 80%;
-
 `
 
 export const ProductBtn = styled.button`
@@ -84,4 +73,6 @@ export const ProductBtn = styled.button`
     background-color: var(--amarillo);
     margin-top: 10px;
 `
+
+
 

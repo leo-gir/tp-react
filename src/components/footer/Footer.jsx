@@ -19,6 +19,8 @@ function Footer(){
                 </FooterSocial>
                 <FooterLogo>
                     <img src={Logo} alt="logo" />
+                    <p>Av. Santa Fe 1560</p>
+                    <p>CABA</p>
                 </FooterLogo>
                 <FooterDesign>
                     <span>TP N° 1 React - NUCBA</span>

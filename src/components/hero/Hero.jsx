@@ -1,5 +1,5 @@
 import { HeroContaniner } from "./HeroStyles";
-import heroImg from "../../assets/img/hero.png"
+import heroImg from "../../assets/img/homeHero.png"
 import { HeroBtn } from "./HeroStyles";
 
 function Hero(){

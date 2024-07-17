@@ -45,6 +45,8 @@ export const HeroBtn = styled.button`
   -webkit-user-select: none;
   touch-action: manipulation;
 
+  
+
 &:focus {
   outline: 0;
 }
@@ -73,9 +75,10 @@ export const HeroBtn = styled.button`
     }
 
 @media(max-width: 576px){
-      width: 130px;
+      width: 100px;
       height: 40px;
-      font-size: 15px;
+      padding: 0px;
+      font-size: 13px;
       bottom:10px;
       right: 10px;
     } 

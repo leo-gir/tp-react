@@ -26,7 +26,11 @@ export const FooterSocial = styled(FooterContainer)`
 
 export const FooterLogo = styled(FooterContainer)`
     justify-content: center;
+    flex-direction: column;
+    color: var(--gris-claro);
     width: 30%;
+    gap: 10px;
+    margin-bottom: 10px;
     >img{
         width:30%;
     }
@@ -39,8 +43,9 @@ export const FooterLogo = styled(FooterContainer)`
     }
 
     @media(max-width: 576px){
+        width: 100%;
         >img{
-        width:80%;
+        width:30%;
         }
     }
 `

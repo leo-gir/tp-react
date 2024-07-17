@@ -1,11 +1,16 @@
-import { FeaturedSectionContainer, ProductCardsContainer} from "./FeaturedStyles";
-import ProductCard from "./ProductCard";
+import { SectionContainer, ProductCardsContainer} from "./FeaturedStyles";
+import ProductCard from "../cards/ProductCard"
+import Hero from "../hero/Hero";
+
 
 
 function Featured (){
+
     return(
         <>
-            <FeaturedSectionContainer>
+            <Hero />
+
+            <SectionContainer>
                 <h2>Productos destacados</h2>
                 <ProductCardsContainer>
                     <ProductCard cardImg={"https://i.imgur.com/cSytoSD.jpeg"} cardName="Buzo Canguro Clásico" cardPrice={15000} />
@@ -15,7 +20,8 @@ function Featured (){
                     <ProductCard cardImg={"https://i.imgur.com/OKn1KFI.jpeg"} cardName="Notebook con RGB" cardPrice={1200000} />
                     <ProductCard cardImg={"https://i.imgur.com/BG8J0Fj.jpg"} cardName="Bicicleta eléctrica" cardPrice={1300000} />
                 </ProductCardsContainer>
-            </FeaturedSectionContainer>
+            </SectionContainer>
+
         </>
     );
 } 
