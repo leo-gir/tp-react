@@ -6,7 +6,6 @@ import {
     FontAwesomeBars,
     FontAwesomeCart,
     Overlay,
-    CartContainer
 } from "./HeaderStyles";
 import logoImg from "../../assets/img/logoHoriz.png";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
@@ -19,37 +18,13 @@ import { OpenMenuContext } from "../context/menuContext";
 import { CartContext } from "../context/cartContext";
 
 function Header() {
-    const { openMenu, toggleMenu } = useContext(OpenMenuContext);
+    const { openMenu, handleClick } = useContext(OpenMenuContext);
     const { openCart, toggleCart } = useContext(CartContext);
 
-    
-    const toggleOverlay = (e) => {
-        if(e.target.id === "faBars" || e.target.closest("#faBars")){
-            console.log("click");
-            toggleMenu();
-            console.log(openMenu);
-            console.log(e.target);
-            if(openCart){
-                toggleCart();
-            };
-        };
-        
-        if(e.target.id === "faCart" || e.target.closest("#faCart")){
-            console.log("click");
-            toggleCart();
-            console.log(openMenu);
-            console.log(e.target);
-            if(openMenu){
-                toggleMenu();
-            };
-        };
-    };
-    
-    
     return (
         <>
             <NavContainer>
-                <Overlay className={openMenu  || openCart? "showOverlay" : ""} />
+                <Overlay className={openMenu  || openCart? "showOverlay" : ""} onClick={handleClick}/>
                     <NavLogo>
                         <img src={logoImg} alt="logo" />
                     </NavLogo>
@@ -60,11 +35,10 @@ function Header() {
                         <Link to="/productos">PRODUCTOS</Link>
                         <Link to="/contacto">CONTACTO</Link>
                     </NavLinks>
-                    <CartContainer className={openCart ? "active" : ""} ></CartContainer>
 
                     <NavIcons>
-                        <FontAwesomeCart icon={faCartShopping} onClick={toggleOverlay} id="faCart"/>
-                        <FontAwesomeBars icon={faBars} onClick={toggleOverlay} id="faBars" />
+                        <FontAwesomeCart icon={faCartShopping} onClick={toggleCart}/>
+                        <FontAwesomeBars icon={faBars} onClick={handleClick} />
                     </NavIcons>
                 
             </NavContainer>
