@@ -20,7 +20,7 @@ function Header() {
     const { openMenu, handleClick } = useContext(OpenMenuContext);
 
     return (
-        <>
+        <div>
             <NavContainer>
                 <Overlay className={openMenu ? "showOverlay" : ""} onClick={handleClick}/>
                     <NavLogo>
@@ -40,8 +40,7 @@ function Header() {
                     </NavIcons>
                 
             </NavContainer>
-
-        </>
+        </div>
     );
 }
 

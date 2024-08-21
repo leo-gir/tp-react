@@ -8,7 +8,7 @@ import {
     ProductSectionContainer,
     StyledFontAwesomeIcon,
 } from "./ProductStyles";
-import ProductCard from "../cards/ProductCard";
+ import RenderProducts from "./RenderProducts";
 
 function Products() {
     return (
@@ -24,43 +24,17 @@ function Products() {
                         <StyledFontAwesomeIcon icon={faList} /> Categorías
                     </h4>
                     <CatItemsContainer>
-                        <span>Ropa de mujer</span>
-                        <span>Ropa de hombre</span>
+                        <span>Ropa</span>
+                        <span>Calzado</span>
                         <span>Electrónicos</span>
+                        <span>Varios</span>
                     </CatItemsContainer>
 
                 </CategoriesContainer>
                 <CardsContainer>
-                    <ProductCard
-                        cardImg={"https://i.imgur.com/cSytoSD.jpeg"}
-                        cardName="Buzo Canguro Clásico"
-                        cardPrice={15000}
-                    />
-                    <ProductCard
-                        cardImg={"https://i.imgur.com/QkIa5tT.jpeg"}
-                        cardName="Remera estampada"
-                        cardPrice={10000}
-                    />
-                    <ProductCard
-                        cardImg={"https://i.imgur.com/KeqG6r4.jpeg"}
-                        cardName="Gorra negra clásica"
-                        cardPrice={8000}
-                    />
-                    <ProductCard
-                        cardImg={"https://i.imgur.com/YaSqa06.jpeg"}
-                        cardName="Auriculares supraaurales"
-                        cardPrice={18000}
-                    />
-                    <ProductCard
-                        cardImg={"https://i.imgur.com/OKn1KFI.jpeg"}
-                        cardName="Notebook con RGB"
-                        cardPrice={1200000}
-                    />
-                    <ProductCard
-                        cardImg={"https://i.imgur.com/BG8J0Fj.jpg"}
-                        cardName="Bicicleta eléctrica"
-                        cardPrice={1300000}
-                    />
+
+                <RenderProducts/>
+
                 </CardsContainer>
             </ProductSectionContainer>
         </>

@@ -4,12 +4,12 @@ export const OpenMenuContext = createContext();
 
 export function OpenMenuProvider({children}){
     const [openMenu, setOpenMenu] = useState(false);
-    const toggleMenu = () => {
+    const handleClick = () => {
         setOpenMenu(prevOpenMenu => !prevOpenMenu);
     };
 
     return (
-        <OpenMenuContext.Provider value={{openMenu, toggleMenu, setOpenMenu}}>
+        <OpenMenuContext.Provider value={{openMenu, handleClick}}>
             {children}
         </OpenMenuContext.Provider>
     )

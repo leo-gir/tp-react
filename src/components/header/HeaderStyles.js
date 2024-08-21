@@ -27,15 +27,15 @@ export const NavLinks = styled.div`
     }
 
     @media (max-width: 992px) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+
         width: 50%;
         height: calc(100vh - 300px);
         position: absolute;
         top: 80px;
         right: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         padding: 0;
         border-radius: 0 0 10px 10px;
         gap: 40px;
@@ -50,37 +50,6 @@ export const NavLinks = styled.div`
         }
     }
 `;
-
-
-export const CartContainer = styled.div`
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: calc(100vh - 300px);
-    position: absolute;
-    top: 80px;
-    right: 0;
-    padding: 0;
-    border-radius: 0 0 10px 10px;
-    gap: 40px;
-    background: rgba(0, 0, 0, 0.786);
-    transform: translateX(150%);
-    transition: all 0.5s ease;
-    &.active {
-            display: flex;
-            transform: translateX(0%);
-            transition: all 0.5s ease;
-            z-index: 2;
-        }
-        @media (max-width: 992px) {
-            width: 50%;
-        }
-`
-
-
 
 export const NavLogo = styled.div`
     display: flex;
@@ -108,7 +77,6 @@ export const FontAwesomeBars = styled(FontAwesomeIcon)`
     display: none;
     font-size: 33px;
     color: var(--amarillo);
-    
 
     @media (max-width: 992px) {
         display: flex;

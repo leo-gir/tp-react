@@ -1,13 +1,13 @@
 import { BtnContainer, CardContainer, DetailsBtn, AddBtn } from "./ProductCardStyles";
 
 
-function ProductCard ({cardName, cardImg, cardPrice}){
+function ProductCard ({title, images, price}){
 
     return (
             <CardContainer>
-                <img src={cardImg} alt={cardName} />
-                <h4>{cardName}</h4>
-                <span>Precio: ${cardPrice}</span>
+                <img src={images} alt={title} />
+                <h4>{title}</h4>
+                <span>Precio: ${price}</span>
                 <BtnContainer>
                     
                     <DetailsBtn>Detalles</DetailsBtn>
